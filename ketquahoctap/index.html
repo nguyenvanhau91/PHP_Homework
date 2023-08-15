@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kết quả học tập</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Kết quả học tập</h2>
+        <form action="calculate_result.php" method="POST">
+            <label for="hk1">Điểm HK1:</label>
+            <input type="number" name="hk1" step="0.1" required>
+            <br>
+            <label for="hk2">Điểm HK2:</label>
+            <input type="number" name="hk2" step="0.1" required>
+            <br>
+            <button type="submit" name="calculate">Tính kết quả</button>
+        </form>
+    </div>
+</body>
+</html>
